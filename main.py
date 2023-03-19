@@ -1,6 +1,9 @@
 import hashlib
 import json
 from time import time
+from uuid import uuid4
+from flask import Flask
+
 
 
 class Blockchain(object):
@@ -46,7 +49,7 @@ class Blockchain(object):
 
     def proof_of_work(self, last_proof):
         # This is the proof of work algorithm, which in short,
-        # should be result in values difficult to compute yet easy to verify.
+        # should result in values difficult to compute yet easy to verify.
         """
         For the purpose of this function, the Proof of Work algorithm will be:
         - Find a number p such that hash(Pp) contains 4 leading zeroes, where P is the previous p

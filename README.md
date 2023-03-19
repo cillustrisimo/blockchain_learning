@@ -1,8 +1,9 @@
-# Baby's First Blockchain
+# Some Thoughts
 
 ---
 
-Making this mainly for my own learning purposes...
+Making this mainly for my own learning purposes. An exercise in cryptography and OOP. Truth be told, I am not the <i> biggest </i>
+fan of cryptocurrency, but I am curious about non-financial applications of blockchain. In any case, to be a good critic, one should still understand the technology, so here I am.
 
 
 
